@@ -8,8 +8,8 @@
         <version>3.5.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.app</groupId>
-    <artifactId>CoworkingSpace</artifactId>
+    <groupId>com.example</groupId>
+    <artifactId>demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>CoworkingSpace</name>
     <description>CoworkingSpace</description>
