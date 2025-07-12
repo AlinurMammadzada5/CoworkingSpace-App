@@ -14,9 +14,9 @@ import javax.sql.DataSource;
 import java.util.Properties;
 
 @Configuration
-@ComponentScan(basePackages ="com.app.coworkingspace")
+@ComponentScan(basePackages ="com.example.demo")
 @EnableTransactionManagement
-@EnableJpaRepositories(basePackages = "com.app.coworkingspace.repository")
+@EnableJpaRepositories(basePackages = "com.example.demo.repo")
 public class SpringConfig {
 
     @Bean
@@ -33,7 +33,7 @@ return dataSource;
     public LocalContainerEntityManagerFactoryBean entityManagerFactory(DataSource dataSource) {
         LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
         em.setDataSource(dataSource);
-        em.setPackagesToScan("com.app.coworkingspace.entity");
+        em.setPackagesToScan("com.example.demo.entity");
        em.setJpaVendorAdapter(new HibernateJpaVendorAdapter());
 
 

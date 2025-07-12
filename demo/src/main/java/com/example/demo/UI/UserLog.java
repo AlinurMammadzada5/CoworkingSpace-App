@@ -1,6 +1,6 @@
 package com.example.demo.UI;
 
-import com.app.coworkingspace.service.SpaceService;
+import com.example.demo.service.SpaceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
