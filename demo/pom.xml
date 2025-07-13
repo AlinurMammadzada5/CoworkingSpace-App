@@ -8,8 +8,8 @@
         <version>3.5.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.app</groupId>
-    <artifactId>CoworkingSpace</artifactId>
+    <groupId>com.example</groupId>
+    <artifactId>demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>CoworkingSpace</name>
     <description>CoworkingSpace</description>
@@ -43,11 +43,6 @@
 
 
         <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <scope>runtime</scope>
@@ -57,14 +52,6 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
-
-
-
-
-
-
-
 
         <!-- JUnit 5 API for annotations and assertions -->
         <dependency>
@@ -92,11 +79,6 @@
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
-        <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <version>42.7.7</version>
-        </dependency>
 
 
         <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
@@ -113,11 +95,6 @@
             <version>3.1.0</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.hibernate.orm</groupId>
-            <artifactId>hibernate-core</artifactId>
-            <version>6.4.2.Final</version>
-        </dependency>
 
 
     </dependencies>
